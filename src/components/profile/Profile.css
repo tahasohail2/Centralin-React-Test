@@ -1,0 +1,46 @@
+.profileHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding: 20px 0px 0px 120px
+}
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 20px;
+}
+
+
+.signInSection{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-evenly;
+
+}
+.signInFields{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.TextField-without-border-radius fieldset {
+    border-radius: 8px;
+  }
+.editOldPassword{
+    margin-top: 10px;
+}
+.editNewPassword{
+    margin-top: 40px;
+}
+.confirmNewPassword{
+    margin-top: 40px;
+}
+.accountActivity{
+    margin-top: 20px;
+}
+.tableContent{
+    margin-top: 20px;
+}

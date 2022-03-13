@@ -1,0 +1,73 @@
+.sidebarWrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    
+
+}
+
+.AdminSection{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.AdminName{
+    font-size: 18px;
+    color: #ffffff;
+}
+.AdminDesignation{
+    font-size: 9px;
+    color:#ffffff;
+}
+
+.menuItemsText{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    list-style: none;
+    padding: 8px 20px 8px 0px;
+    height: 40px;
+}
+.menuItemsText a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.menuItemsText a:hover{
+    background-color: #1CB393;
+    padding: 5px 5px;
+}
+.MenuItems{
+    margin-top: 20px;
+    width: 100%;
+}
+#title{
+    margin-left: 16px;
+}
+hr{
+    border: 1px solid #E8E8E8;
+    margin: 10px;
+    
+}
+.Social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    color: #1CB393;
+}
+.LogoutButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
